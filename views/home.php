@@ -24,13 +24,17 @@
     <script src="<?=$js_file?>"></script>
     <title>Currículo - Bem-vindo!</title>
 </head>
-<body>
 <header>
   <?php
   include_once "views/menu_home.php";
   ?>
 </header>
+<body>
+<div id="conteudo">
 
-    
+</div>
 </body>
+  <?php
+  include_once "footer_home.php";
+  ?>
 </html>
