@@ -32,15 +32,16 @@
 </header>
 <body>
 
-<div class="container" id="entrada"><br><br><br><br>
+<div class="container" id="entrada">
 <h3 id="titulo_entrada">Bem-Vindo!</h3>
 <p class="txt_entrada">Você está na minha página pessoal, espero que goste!</p>
-<p class="txt_entrada">Abaixo estão algumas das minhas informações:</p>
-<br>
+<p class="txt_entrada">Abaixo estão algumas das minhas informações.</p>
 </div>
 
+<div id="info_redirect" style="height: 5px;"></div><br>
 <center>
 <div class="container" id="info">
+  <!-- SESSÃO DE INFORMAÇÕES PESSOAIS -->
   <h3><span style="color: #198f89;">✱</span> Sessão 1 - Informações Pessoais <span style="color: #198f89;">✱</span></h3><br>
   <div class="row">
     <div class="col-6" id="info_pessoais">
@@ -55,11 +56,12 @@
       <button style="background-color: #198f89; display:none;" id="bttn_descPessoal_esconder" class="btn btn-primary">Voltar</button>
 
       <img class="imgs_intro" id="imgPessoal" src="assets/img/img_info_pessoais_intro.png"><br><br>
-      <p class="txt_intro" id="txtPessoal">Aqui há algumas informações básicas sobre mim, clique no botão abaixo e veja!</p>
+      <p class="txt_intro" id="txtPessoal">Aqui há algumas informações básicas sobre mim.</p>
 
      <button style="background-color: #198f89;" id="bttn_descPessoal_mostrar" class="btn btn-primary">Ver mais...</button>
      </div>
-    <div class="col-6">
+
+    <div class="col-6" id="info_hobbies">
     <h4 class="titulos" >Hobbies</h4><br>
     <img class="imgs" id="img_hobbies" src="assets/img/img_hobbies.png" style="display:none;">
       <p id="txt_hobbies" style="display: none; padding-top: 10px;">
@@ -73,19 +75,58 @@
      <button style="background-color: #198f89;" id="bttn_descHobbies_mostrar" class="btn btn-primary">Ver mais...</button>
     </div>
   </div>
-</div><br><br><br>
+  <!-- -->
+</div><br><br>
 </center>
 
-<div class="container" style="width: 60%;" id="info">
+<div id="formacao_redirect" style="height: 5px;"></div><br>
+<center>
+<div class="container" id="formacao">
+   <!-- SESSÃO DE FORMAÇÃO ACADÊMICA E PROFISSIONAL -->
+<h3><span style="color: #198f89;">✱</span> Sessão 2 - Formação <span style="color: #198f89;">✱</span></h3><br>
   <div class="row">
-    <div class="col">
-      FORMAÇÃO ACADÊMICA
+    <div class="col-6">
+    <h4 class="titulos" >Formação Acadêmica</h4><br>
+    <p class="txt_academica" style="display: none; padding-top: 10px;">
+        <b>Ensino Fundamental (1º ao 9º ano):</b> E.E. Agostinho Cano.<br>
+    </p>
+    <img class="imgs" id="img_academica1" src="assets/img/img_academica1.jpg" style="border-radius: 50%; display:none; padding-bottom: 20px;">
+    
+    <p class="txt_academica" style="display: none; padding-top: 10px;">
+        <b>Ensino Médio - Técnico em Informática para Internet (1º ao 4º ano):</b> Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP Guarulhos).<br>
+    </p>
+    <img class="imgs" id="img_academica2" src="assets/img/img_academica2.jpg" style="border-radius: 50%; display:none;">
+    
+    <p class="txt_academica" style="display: none; padding-top: 10px">
+        Atualmente estou cursando o quarto e último ano do Ensino Médio-Técnico no IFSP Guarulhos. <br>
+    </p>
+    <button style="background-color: #198f89; display:none;" id="bttn_descAcademica_esconder" class="btn btn-primary">Voltar</button>
+
+      <img class="imgs_intro" id="imgAcademica" src="assets/img/img_academica_intro.png"><br><br>
+      <p class="txt_intro" id="txtAcademica">Algumas informações sobre minha formação acadêmica.</p>
+
+     <button style="background-color: #198f89;" id="bttn_descAcademica_mostrar" class="btn btn-primary">Ver mais...</button>
     </div>
-    <div class="col">
-      EXPERIÊNCIA PROFISSIONAL
+    <div class="col-6">
+    <h4 class="titulos" >Experiência Profissional</h4><br>
+   
+    <img class="imgs" id="img_profissional" src="assets/img/img_profissional.png" style="border-radius: 50%; display: none; padding-bottom: 20px;">
+    <p id="txt_profissional" style="display: none; padding-top: 10px;">
+        Atualmente sou desenvolvedor Front-end da <span style="color: #0069b3;"><b>TRL Sites</b></span>, uma empresa criada por mim e meus colegas para o projeto de formatura do curso de Informática para Internet.<br><br>
+        Clique neste link para entrar em nosso site: <a target="blank" href="https://projetos.talentosdoifsp.gru.br/trlsites/" style="text-decoration: none;">TRL Sites</a>
+    </p>
+
+    <button style="background-color: #198f89; display:none;" id="bttn_descProfissional_esconder" class="btn btn-primary">Voltar</button>
+
+      <img class="imgs_intro" id="imgProfissional" src="assets/img/img_profissional_intro.png"><br><br>
+      <p class="txt_intro" id="txtProfissional">Algumas informações sobre minha formação e experiência profissional.</p>
+
+     <button style="background-color: #198f89;" id="bttn_descProfissional_mostrar" class="btn btn-primary">Ver mais...</button>
     </div>
   </div>
-</div><br><br><br>
+  <!-- -->
+</div><br><br>
+</center>
 
 <div class="container" style="width: 60%;" id="info">
   <div class="row">
@@ -97,6 +138,38 @@
     </div>
   </div>
 </div><br><br><br>
+
+<!-- CAROUSEL DE IMAGENS (PORTFOLIO)-->
+<div style="display: none;" id="demo" class="carousel slide" data-bs-ride="carousel">
+
+  <!-- Indicators/dots -->
+  <div class="carousel-indicators">
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
+    <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
+  </div>
+
+  <!-- The slideshow/carousel -->
+  <div class="carousel-inner">
+    <div class="carousel-item active">
+      <img src="assets/img/img_hobbies_intro.png" alt="Los Angeles" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/img_hobbies_intro.png" alt="Chicago" class="d-block w-100">
+    </div>
+    <div class="carousel-item">
+      <img src="assets/img/img_hobbies_intro.png" alt="New York" class="d-block w-100">
+    </div>
+  </div>
+
+  <!-- Left and right controls/icons -->
+  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+    <span class="carousel-control-prev-icon"></span>
+  </button>
+  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+    <span class="carousel-control-next-icon"></span>
+  </button>
+</div>
 
 <?php
   include_once "footer_home.php";

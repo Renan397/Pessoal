@@ -6,6 +6,9 @@ body {
     text-align: justify;
     background-color: #fffffa;
 } 
+#entrada {
+    padding-top: 100px;
+}
 #titulo_entrada {
     text-align: center;
     font-weight: bold;
@@ -37,7 +40,18 @@ body {
 }
 #info {
     border-bottom: outset 5px #198f89; 
-    border-top: outset 5px #198f89; 
+    border-top: outset 5px #198f89;
+    border-left: #198f89 5px dashed; 
+    border-right: #198f89 5px dashed; 
+    padding-bottom: 50px; 
+    padding-top: 50px;
+    border-radius: 10%;
+}
+#formacao {
+    border-bottom: outset 5px #198f89; 
+    border-top: outset 5px #198f89;
+    border-left: #198f89 5px dashed; 
+    border-right: #198f89 5px dashed; 
     padding-bottom: 50px; 
     padding-top: 50px; 
     border-radius: 10%;
@@ -52,5 +66,29 @@ transform: scale(1.1);
     transition: 0.5s;
     }           
 #bttn_descPessoal_esconder:hover {
+transform: scale(1.1);
+}
+#bttn_descHobbies_mostrar {
+    transition: 0.5s;
+    }       
+#bttn_descHobbies_mostrar:hover {
+transform: scale(1.1);
+}
+#bttn_descHobbies_esconder {
+    transition: 0.5s;
+    }           
+#bttn_descHobbies_esconder:hover {
+transform: scale(1.1);
+}
+#bttn_descAcademica_mostrar {
+    transition: 0.5s;
+    }       
+#bttn_descAcademica_mostrar:hover {
+transform: scale(1.1);
+}
+#bttn_descAcademica_esconder {
+    transition: 0.5s;
+    }           
+#bttn_descAcademica_esconder:hover {
 transform: scale(1.1);
 }

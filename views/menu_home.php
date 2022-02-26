@@ -17,19 +17,19 @@
     </button>
     <div class="collapse navbar-collapse" id="collapsibleNavbar">
       <ul class="navbar-nav">
-      <li class="nav-item dropdown">
-  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Informações</a>
+        <li class="nav-item">
+          <a class="nav-link" href="#info_redirect">Informações</a>
+      </li>
+        <li class="nav-item dropdown">
+  <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown">Formação</a>
     <ul class="dropdown-menu">
-    <li><a class="dropdown-item" href="#">Pessoais</a></li>
-    <li><a class="dropdown-item" href="#">Hobbies</a></li>
+    <li><a class="dropdown-item" href="#formacao_redirect">Acadêmica</a></li>
+    <li><a class="dropdown-item" href="#formacao_redirect">Profissional</a></li>
   </ul>
     </li>
-        <li class="nav-item">
-          <a class="nav-link" href="#">Formação</a>
-        </li>
-        <li class="nav-item">
+    <li class="nav-item">
           <a class="nav-link" href="#">Competências</a>
-        </li>
+      </li>
       </ul>
     </div>
   </div>

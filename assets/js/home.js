@@ -36,4 +36,44 @@ $(document).ready(function(){
         $("#txt_hobbies").hide();
       });
       //
+
+      //Sessão de Formação Acadêmica
+      $("#bttn_descAcademica_mostrar").click(function(){
+        $("#bttn_descAcademica_mostrar").hide();
+        $("#bttn_descAcademica_esconder").fadeToggle();
+        $("#imgAcademica").hide();
+        $("#txtAcademica").hide();
+        $("#img_academica1").fadeToggle();
+        $("#img_academica2").fadeToggle();
+        $(".txt_academica").fadeToggle();
+      });
+      $("#bttn_descAcademica_esconder").click(function(){
+        $("#bttn_descAcademica_esconder").hide();
+        $("#bttn_descAcademica_mostrar").fadeToggle();
+        $("#imgAcademica").fadeToggle();
+        $("#txtAcademica").fadeToggle();
+        $("#img_academica1").hide();
+        $("#img_academica2").hide();
+        $(".txt_academica").hide();
+      });
+      //
+
+      //Sessão de Formação Profissional
+      $("#bttn_descProfissional_mostrar").click(function(){
+        $("#bttn_descProfissional_mostrar").hide();
+        $("#bttn_descProfissional_esconder").fadeToggle();
+        $("#imgProfissional").hide();
+        $("#txtProfissional").hide();
+        $("#img_profissional").fadeToggle();
+        $("#txt_profissional").fadeToggle();
+      });
+      $("#bttn_descProfissional_esconder").click(function(){
+        $("#bttn_descProfissional_esconder").hide();
+        $("#bttn_descProfissional_mostrar").fadeToggle();
+        $("#imgProfissional").fadeToggle();
+        $("#txtProfissional").fadeToggle();
+        $("#img_profissional").hide();
+        $("#txt_profissional").hide();
+      });
+      //
   });
