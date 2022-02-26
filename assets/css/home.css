@@ -113,3 +113,27 @@ transform: scale(1.1);
 #bttn_descProfissional_esconder:hover {
 transform: scale(1.1);
 }
+#bttn_descCompetencias_mostrar {
+    transition: 0.5s;
+    }       
+#bttn_descCompetencias_mostrar:hover {
+transform: scale(1.1);
+}
+#bttn_descCompetencias_esconder {
+    transition: 0.5s;
+    }           
+#bttn_descCompetencias_esconder:hover {
+transform: scale(1.1);
+}
+#bttn_descIdiomas_mostrar {
+    transition: 0.5s;
+    }       
+#bttn_descIdiomas_mostrar:hover {
+transform: scale(1.1);
+}
+#bttn_descIdiomas_esconder {
+    transition: 0.5s;
+    }           
+#bttn_descIdiomas_esconder:hover {
+transform: scale(1.1);
+}

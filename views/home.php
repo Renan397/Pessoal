@@ -48,7 +48,7 @@
     <h4 class="titulos" >Informações Pessoais</h4><br>
     <img class="imgs" id="img_perfil" src="assets/img/img_perfil.png" style="box-shadow: 0 0 1em #57a8f3; border-radius: 5%; display:none; border: 3px inset #198f89;">
       <p id="txt_perfil" style="display: none; padding-top: 10px;"><b>Nome:</b> Renan Siqueira dos Santos;<br>
-        <b>Data de nascimento</b> 18/06/2003;<br>  
+        <b>Data de nascimento:</b> 18/06/2003;<br>  
         <b>Local de nascimento:</b> Guarulhos - SP;<br>
         <b>Nacionalidade:</b> Brasileira;<br>
         <b>Gênero:</b> Masculino.<br>

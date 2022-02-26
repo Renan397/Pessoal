@@ -3,6 +3,7 @@
  $img_files = array();
  $img_files[13] = $img."logo_whatsapp.png";
  $img_files[14] = $img."logo_facebook.png";
+ $img_files[15] = $img."logo_github.png";
 ?>
 <html>
 <style>
@@ -152,6 +153,7 @@
                 <div class="social-networks">
                     <a href="https://api.whatsapp.com/send?phone=551196726-3940&text=sua%20mensagem" class="whatsapp" target="_blank"><img class='img_footer' src='<?= $img_files[13] ?>'></i></a>
                     <a href="https://www.facebook.com/renan.siqueira.3363/" class="facebook" target="_blank"><img class='img_footer' src='<?= $img_files[14] ?>'></i></a>
+                    <a href="https://github.com/Renan397" class="github" target="_blank"><img class='img_footer' src='<?= $img_files[15] ?>'></i></a>
                     </div>
             </div>
         </div>
