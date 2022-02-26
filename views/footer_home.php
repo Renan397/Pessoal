@@ -1,10 +1,8 @@
 <?php
  include_once "config/config.php";
  $img_files = array();
- $img_files[9] = $img."logo_whatsapp.png";
- $img_files[10] = $img."logo_facebook.png";
- $img_files[11] = $img."logo_instagram.png";
- $img_files[12] = $img."brazil_footer.png";
+ $img_files[13] = $img."logo_whatsapp.png";
+ $img_files[14] = $img."logo_facebook.png";
 ?>
 <html>
 <style>
@@ -24,13 +22,13 @@
     }
 
     #myFooter {
-        background-color: #20b2aa;
+        background-color: #212121;
         color: white;
         padding-top: 30px;
     }
 
     #myFooter .footer-copyright {
-        background-color: #198f89;
+        background-color: #333333;
         padding-top: 3px;
         padding-bottom: 3px;
         text-align: center;
@@ -141,7 +139,10 @@
                 <ul>
                     <li>
                         <p><b>Telefone:</b> <br>(11) 96726-3940</p>
-                    </li><br>
+                    </li>
+                    <li>
+                        <p><b>Email:</b> <br>renan.santos@aluno.ifsp.edu.br</p>
+                    </li>
                     <li>
                         <p><b>Endereço:</b> Av. Penedo, 422, Jardim Normândia, Guarulhos - SP</p>
                     </li>
@@ -149,14 +150,14 @@
             </div>
             <div class="col-sm-3">
                 <div class="social-networks">
-                    <a href="https://api.whatsapp.com/send?phone=551196035-1235&text=sua%20mensagem" class="whatsapp" target="_blank"><img class='img_footer' src='<?= $img_files[9] ?>'></i></a>
-                    <a href="https://www.facebook.com/TRL-Sites-104897937613126" class="facebook" target="_blank"><img class='img_footer' src='<?= $img_files[10] ?>'></i></a>
+                    <a href="https://api.whatsapp.com/send?phone=551196726-3940&text=sua%20mensagem" class="whatsapp" target="_blank"><img class='img_footer' src='<?= $img_files[13] ?>'></i></a>
+                    <a href="https://www.facebook.com/renan.siqueira.3363/" class="facebook" target="_blank"><img class='img_footer' src='<?= $img_files[14] ?>'></i></a>
                     </div>
             </div>
         </div>
     </div>
     <div class="footer-copyright">
-        <p>© 2021 Copyright - Renan Siqueira dos Santos</p>
+        <p>© 2022 Copyright - Renan Siqueira dos Santos</p>
     </div>
 </footer>
 

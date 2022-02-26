@@ -1,0 +1,39 @@
+$(document).ready(function(){
+    //Sessão de Informações Pessoais
+    $("#bttn_descPessoal_mostrar").click(function(){
+        $("#bttn_descPessoal_mostrar").hide();
+        $("#bttn_descPessoal_esconder").fadeToggle();
+        $("#imgPessoal").hide();
+        $("#txtPessoal").hide();
+        $("#img_perfil").fadeToggle();
+        $("#txt_perfil").fadeToggle();
+      });
+      $("#bttn_descPessoal_esconder").click(function(){
+        $("#bttn_descPessoal_esconder").hide();
+        $("#bttn_descPessoal_mostrar").fadeToggle();
+        $("#imgPessoal").fadeToggle();
+        $("#txtPessoal").fadeToggle();
+        $("#img_perfil").hide();
+        $("#txt_perfil").hide();
+      });
+      //
+
+      //Sessão de Hobbies
+      $("#bttn_descHobbies_mostrar").click(function(){
+        $("#bttn_descHobbies_mostrar").hide();
+        $("#bttn_descHobbies_esconder").fadeToggle();
+        $("#imgHobbies").hide();
+        $("#txtHobbies").hide();
+        $("#img_hobbies").fadeToggle();
+        $("#txt_hobbies").fadeToggle();
+      });
+      $("#bttn_descHobbies_esconder").click(function(){
+        $("#bttn_descHobbies_esconder").hide();
+        $("#bttn_descHobbies_mostrar").fadeToggle();
+        $("#imgHobbies").fadeToggle();
+        $("#txtHobbies").fadeToggle();
+        $("#img_hobbies").hide();
+        $("#txt_hobbies").hide();
+      });
+      //
+  });
