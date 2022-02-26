@@ -65,7 +65,7 @@
     <h4 class="titulos" >Hobbies</h4><br>
     <img class="imgs" id="img_hobbies" src="assets/img/img_hobbies.png" style="display:none;">
       <p id="txt_hobbies" style="display: none; padding-top: 10px;">
-      Quando não estou em um momento de estudo, as coisas que eu mais gosto de fazer são: Programar, assistir vídeos no <span style="color: red;"><b>Youtube</b></span>, jogar jogos (isso aqui eu faço muito), assistir à algum jogo de <span style="color: green;"><b>futebol</b></span> ou <span style="color: orange;"><b>basquete</b></span>, meu momento de descanso e de praticar atividades se resume a isso, basicamente.
+      Quando não estou em um momento de estudo, as coisas que eu mais gosto de fazer são: Programar, assistir vídeos no <span style="color: red;"><b>Youtube</b></span>, jogar <span style="color: blue;"><b>jogos</b></span> (isso aqui eu faço muito), assistir à algum jogo de <span style="color: green;"><b>futebol</b></span> ou <span style="color: orange;"><b>basquete</b></span>, meu momento de descanso e de prática de atividades é importante para limpar a mente e me manter disposto fisicamente.
       </p>
       <button style="background-color: #198f89; display:none;" id="bttn_descHobbies_esconder" class="btn btn-primary">Voltar</button>
 
@@ -85,7 +85,7 @@
    <!-- SESSÃO DE FORMAÇÃO ACADÊMICA E PROFISSIONAL -->
 <h3><span style="color: #198f89;">✱</span> Sessão 2 - Formação <span style="color: #198f89;">✱</span></h3><br>
   <div class="row">
-    <div class="col-6">
+    <div class="col-6" id="info_academica">
     <h4 class="titulos" >Formação Acadêmica</h4><br>
     <p class="txt_academica" style="display: none; padding-top: 10px;">
         <b>Ensino Fundamental (1º ao 9º ano):</b> E.E. Agostinho Cano.<br>
@@ -107,7 +107,7 @@
 
      <button style="background-color: #198f89;" id="bttn_descAcademica_mostrar" class="btn btn-primary">Ver mais...</button>
     </div>
-    <div class="col-6">
+    <div class="col-6" id="info_profissional">
     <h4 class="titulos" >Experiência Profissional</h4><br>
    
     <img class="imgs" id="img_profissional" src="assets/img/img_profissional.png" style="border-radius: 50%; display: none; padding-bottom: 20px;">
@@ -128,16 +128,52 @@
 </div><br><br>
 </center>
 
-<div class="container" style="width: 60%;" id="info">
+<div id="competencias_redirect" style="height: 5px;"></div><br>
+<center>
+<div class="container" id="competencias">
+  <!-- SESSÃO DE COMPETÊNCIAS -->
+<h3><span style="color: #198f89;">✱</span> Sessão 3 - Competências <span style="color: #198f89;">✱</span></h3><br>
   <div class="row">
-    <div class="col">
-      COMPETÊNCIAS
+    <div class="col-6" id="info_competencias">
+    <h4 class="titulos" >Competências</h4><br>
+   
+   <img class="imgs" id="img_competencias" src="assets/img/img_competencias.jpg" style="border-radius: 10%; display: none; padding-bottom: 20px;">
+   <p id="txt_competencias" style="display: none; padding-top: 10px;">
+    Sou uma pessoa muito curiosa, que tem muita vontade de aprender e coragem para encontrar soluções de possíveis problemas. Tento sempre ouvir os meus colegas de equipe, afinal, saber ouvir todas as ideias é fundamental para que o projetos dêem certo.<br><br>
+    <b>Linguagens (de marcação e programação) e ferramentas conhecidas:</b> HTML, CSS, JavaScript, PHP, jQuery e Bootstrap (4 e 5);<br>
+    <b>Habilidades:</b> Gestão de projetos, suporte em hardware e programação para web;
+   </p>
+
+   <button style="background-color: #198f89; display:none;" id="bttn_descCompetencias_esconder" class="btn btn-primary">Voltar</button>
+
+     <img class="imgs_intro" id="imgCompetencias" src="assets/img/img_competencias_intro.png"><br><br>
+     <p class="txt_intro" id="txtCompetencias">Algumas das minhas competências, principalmente relacionadas à area de tecnologia.</p>
+
+    <button style="background-color: #198f89;" id="bttn_descCompetencias_mostrar" class="btn btn-primary">Ver mais...</button>
+ 
     </div>
-    <div class="col">
-      IDIOMAS
+    <div class="col-6" id="info_idiomas">
+    <h4 class="titulos" >Idiomas</h4><br>
+   
+   <img class="imgs" id="img_idiomas" src="assets/img/img_idiomas.png" style="border-radius: 10%; display: none; padding-bottom: 20px;">
+    <ul id="txt_idiomas" style="list-style: none; display: none;">
+    <li><span style="color: #4ca9c8;"><b>Língua Inglesa:</b></span> Nível intermediário;</li>
+    <li><span style="color: red;"><b>Língua Espanhola:</b></span> Nível iniciante;</li>
+    <li><span style="color: darkblue;"><b>Língua Francesa:</b></span> Nível iniciante.</li>
+    </ul>
+
+   <button style="background-color: #198f89; display:none;" id="bttn_descIdiomas_esconder" class="btn btn-primary">Voltar</button>
+
+     <img class="imgs_intro" id="imgIdiomas" src="assets/img/img_idiomas_intro.png"><br><br>
+     <p class="txt_intro" id="txtIdiomas">Por último, alguns idiomas em que possuo níveis de fluência.</p>
+
+    <button style="background-color: #198f89;" id="bttn_descIdiomas_mostrar" class="btn btn-primary">Ver mais...</button>
+ 
     </div>
   </div>
-</div><br><br><br>
+  <!-- -->
+</div>
+</center><br><br><br>
 
 <!-- CAROUSEL DE IMAGENS (PORTFOLIO)-->
 <div style="display: none;" id="demo" class="carousel slide" data-bs-ride="carousel">
@@ -175,4 +211,29 @@
   include_once "footer_home.php";
   ?>
 </body>
+<script>
+//Ajustes para o site rodando no celular
+  function isMobile() {
+    var userAgent = navigator.userAgent.toLowerCase();
+    return (userAgent.search(/(android|avantgo|blackberry|bolt|boost|cricket|docomo|fone|hiptop|mini|mobi|palm|phone|pie|tablet|up\.browser|up\.link|webos|wos)/i) != -1);
+}
+
+if (isMobile()) {
+  document.getElementById("info_pessoais").classList.remove("col-6");
+  document.getElementById("info_pessoais").classList.add("col-12");
+  document.getElementById("info_hobbies").classList.remove("col-6");
+  document.getElementById("info_hobbies").classList.add("col-12");
+
+  document.getElementById("info_academica").classList.remove("col-6");
+  document.getElementById("info_academica").classList.add("col-12");
+  document.getElementById("info_profissional").classList.remove("col-6");
+  document.getElementById("info_profissional").classList.add("col-12");
+
+  document.getElementById("info_competencias").classList.remove("col-6");
+  document.getElementById("info_competencias").classList.add("col-12");
+  document.getElementById("info_idiomas").classList.remove("col-6");
+  document.getElementById("info_idiomas").classList.add("col-12");
+}
+</script>
+
 </html>

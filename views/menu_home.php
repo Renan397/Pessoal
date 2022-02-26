@@ -28,7 +28,7 @@
   </ul>
     </li>
     <li class="nav-item">
-          <a class="nav-link" href="#">Competências</a>
+          <a class="nav-link" href="#competencias_redirect">Competências</a>
       </li>
       </ul>
     </div>

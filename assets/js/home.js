@@ -76,4 +76,42 @@ $(document).ready(function(){
         $("#txt_profissional").hide();
       });
       //
+
+      //Sessão de Competências
+      $("#bttn_descCompetencias_mostrar").click(function(){
+        $("#bttn_descCompetencias_mostrar").hide();
+        $("#bttn_descCompetencias_esconder").fadeToggle();
+        $("#imgCompetencias").hide();
+        $("#txtCompetencias").hide();
+        $("#img_competencias").fadeToggle();
+        $("#txt_competencias").fadeToggle();
+      });
+      $("#bttn_descCompetencias_esconder").click(function(){
+        $("#bttn_descCompetencias_esconder").hide();
+        $("#bttn_descCompetencias_mostrar").fadeToggle();
+        $("#imgCompetencias").fadeToggle();
+        $("#txtCompetencias").fadeToggle();
+        $("#img_competencias").hide();
+        $("#txt_competencias").hide();
+      });
+      //
+
+      //Sessão de Idiomas
+      $("#bttn_descIdiomas_mostrar").click(function(){
+        $("#bttn_descIdiomas_mostrar").hide();
+        $("#bttn_descIdiomas_esconder").fadeToggle();
+        $("#imgIdiomas").hide();
+        $("#txtIdiomas").hide();
+        $("#img_idiomas").fadeToggle();
+        $("#txt_idiomas").fadeToggle();
+      });
+      $("#bttn_descIdiomas_esconder").click(function(){
+        $("#bttn_descIdiomas_esconder").hide();
+        $("#bttn_descIdiomas_mostrar").fadeToggle();
+        $("#imgIdiomas").fadeToggle();
+        $("#txtIdiomas").fadeToggle();
+        $("#img_idiomas").hide();
+        $("#txt_idiomas").hide();
+      });
+      //
   });

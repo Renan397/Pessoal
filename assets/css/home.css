@@ -56,6 +56,15 @@ body {
     padding-top: 50px; 
     border-radius: 10%;
 }
+#competencias {
+    border-bottom: outset 5px #198f89; 
+    border-top: outset 5px #198f89;
+    border-left: #198f89 5px dashed; 
+    border-right: #198f89 5px dashed; 
+    padding-bottom: 50px; 
+    padding-top: 50px; 
+    border-radius: 10%;
+}
 #bttn_descPessoal_mostrar {
     transition: 0.5s;
     }       
@@ -90,5 +99,17 @@ transform: scale(1.1);
     transition: 0.5s;
     }           
 #bttn_descAcademica_esconder:hover {
+transform: scale(1.1);
+}
+#bttn_descProfissional_mostrar {
+    transition: 0.5s;
+    }       
+#bttn_descProfissional_mostrar:hover {
+transform: scale(1.1);
+}
+#bttn_descProfissional_esconder {
+    transition: 0.5s;
+    }           
+#bttn_descProfissional_esconder:hover {
 transform: scale(1.1);
 }
