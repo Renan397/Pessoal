@@ -1,0 +1,170 @@
+html {
+    scroll-behavior: smooth;
+    }
+body {
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+    text-align: justify;
+    background-color: #fffffa;
+} 
+#entrada {
+    padding-top: 100px;
+}
+#titulo_entrada {
+    text-align: center;
+    font-weight: bold;
+}
+.txt_entrada {
+    text-align: center;
+    font-size: 18px;
+}
+.titulos {
+    border-bottom: 4px #198f89 dotted; 
+    width: 50%;
+    padding-bottom: 10px;
+}
+.imgs_intro {
+    width: 220px;
+    min-height: 220px;
+}
+.txt_intro {
+    width: 50%;
+}
+.imgs {
+    width: 200px;
+    min-height: 160px;
+}
+.linha_txt {
+    background-color: #198f89;
+    border-width: 3px;
+    width: 40%;
+}
+#info {
+    border-bottom: outset 5px #198f89; 
+    border-top: outset 5px #198f89;
+    border-left: #198f89 5px dashed; 
+    border-right: #198f89 5px dashed; 
+    padding-bottom: 50px; 
+    padding-top: 50px;
+    border-radius: 10%;
+}
+#formacao {
+    border-bottom: outset 5px #198f89; 
+    border-top: outset 5px #198f89;
+    border-left: #198f89 5px dashed; 
+    border-right: #198f89 5px dashed; 
+    padding-bottom: 50px; 
+    padding-top: 50px; 
+    border-radius: 10%;
+}
+#competencias {
+    border-bottom: outset 5px #198f89; 
+    border-top: outset 5px #198f89;
+    border-left: #198f89 5px dashed; 
+    border-right: #198f89 5px dashed; 
+    padding-bottom: 50px; 
+    padding-top: 50px; 
+    border-radius: 10%;
+}
+#bttn_descPessoal_mostrar {
+    transition: 0.5s;
+    }       
+#bttn_descPessoal_mostrar:hover {
+transform: scale(1.1);
+}
+#bttn_descPessoal_esconder {
+    transition: 0.5s;
+    }           
+#bttn_descPessoal_esconder:hover {
+transform: scale(1.1);
+}
+#bttn_descHobbies_mostrar {
+    transition: 0.5s;
+    }       
+#bttn_descHobbies_mostrar:hover {
+transform: scale(1.1);
+}
+#bttn_descHobbies_esconder {
+    transition: 0.5s;
+    }           
+#bttn_descHobbies_esconder:hover {
+transform: scale(1.1);
+}
+#bttn_descAcademica_mostrar {
+    transition: 0.5s;
+    }       
+#bttn_descAcademica_mostrar:hover {
+transform: scale(1.1);
+}
+#bttn_descAcademica_esconder {
+    transition: 0.5s;
+    }           
+#bttn_descAcademica_esconder:hover {
+transform: scale(1.1);
+}
+#bttn_descProfissional_mostrar {
+    transition: 0.5s;
+    }       
+#bttn_descProfissional_mostrar:hover {
+transform: scale(1.1);
+}
+#bttn_descProfissional_esconder {
+    transition: 0.5s;
+    }           
+#bttn_descProfissional_esconder:hover {
+transform: scale(1.1);
+}
+#bttn_descCompetencias_mostrar {
+    transition: 0.5s;
+    }       
+#bttn_descCompetencias_mostrar:hover {
+transform: scale(1.1);
+}
+#bttn_descCompetencias_esconder {
+    transition: 0.5s;
+    }           
+#bttn_descCompetencias_esconder:hover {
+transform: scale(1.1);
+}
+#bttn_descIdiomas_mostrar {
+    transition: 0.5s;
+    }       
+#bttn_descIdiomas_mostrar:hover {
+transform: scale(1.1);
+}
+#bttn_descIdiomas_esconder {
+    transition: 0.5s;
+    }           
+#bttn_descIdiomas_esconder:hover {
+transform: scale(1.1);
+}
+
+#botao_anterior {
+    background-color: #595959;
+    display: none;
+}
+#botao_proxima {
+    background-color: #595959;
+    display: none;
+}
+#slide1 {
+    width: 1348px; 
+    height: 657px;
+}
+#slide2 {
+    width: 1348px; 
+    height: 657px;
+}
+#slide3 {
+    width: 1348px; 
+    height: 657px;
+}
+#titulo_portfolio {
+    text-align: center;
+    border-bottom: inset 3px #198f89;
+    width: 15%;
+    padding-bottom: 15px;
+}
+#txt_portfolio {
+    text-align: center;
+    font-size: 18px;
+}
