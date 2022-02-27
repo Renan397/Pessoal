@@ -247,5 +247,4 @@ if (isMobile()) {
   document.getElementById("titulo_portfolio").style.width = "25%";
 }
 </script>
-
 </html>
