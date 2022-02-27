@@ -65,7 +65,7 @@
     <h4 class="titulos" >Hobbies</h4><br>
     <img class="imgs" id="img_hobbies" src="assets/img/img_hobbies.png" style="display:none;">
       <p id="txt_hobbies" style="display: none; padding-top: 10px;">
-      Quando não estou em um momento de estudo, as coisas que eu mais gosto de fazer são: Programar, assistir vídeos no <span style="color: red;"><b>Youtube</b></span>, jogar <span style="color: blue;"><b>jogos</b></span> (isso aqui eu faço muito), assistir à algum jogo de <span style="color: green;"><b>futebol</b></span> ou <span style="color: orange;"><b>basquete</b></span>, meu momento de descanso e de prática de atividades é importante para limpar a mente e me manter disposto fisicamente.
+      Quando não estou em um momento de estudo, as coisas que eu mais gosto de fazer são: Programar, assistir vídeos no <span style="color: red;"><b>Youtube</b></span>, jogar <span style="color: blue;"><b>jogos</b></span> (isso aqui eu faço muito), assistir à algum jogo de <span style="color: green;"><b>futebol</b></span> ou <span style="color: orange;"><b>basquete</b></span>, meu momento de descanso e de prática de atividades é importante para limpar a mente e me manter disposto fisicamente também.
       </p>
       <button style="background-color: #198f89; display:none;" id="bttn_descHobbies_esconder" class="btn btn-primary">Voltar</button>
 
@@ -139,7 +139,7 @@
    
    <img class="imgs" id="img_competencias" src="assets/img/img_competencias.jpg" style="border-radius: 10%; display: none; padding-bottom: 20px;">
    <p id="txt_competencias" style="display: none; padding-top: 10px;">
-    Sou uma pessoa muito curiosa, que tem muita vontade de aprender e coragem para encontrar soluções de possíveis problemas. Tento sempre ouvir os meus colegas de equipe, afinal, saber ouvir todas as ideias é fundamental para que o projetos dêem certo.<br><br>
+    Sou uma pessoa muito curiosa, que tem muita vontade de aprender e coragem para encontrar soluções de possíveis problemas. Tento sempre ouvir os meus colegas de equipe, afinal, saber ouvir todas as ideias é fundamental para que os projetos dêem certo.<br><br>
     <b>Linguagens (de marcação e programação) e ferramentas conhecidas:</b> HTML, CSS, JavaScript, PHP, jQuery e Bootstrap (4 e 5);<br>
     <b>Habilidades:</b> Gestão de projetos, suporte em hardware e programação para web;
    </p>
@@ -165,7 +165,7 @@
    <button style="background-color: #198f89; display:none;" id="bttn_descIdiomas_esconder" class="btn btn-primary">Voltar</button>
 
      <img class="imgs_intro" id="imgIdiomas" src="assets/img/img_idiomas_intro.png"><br><br>
-     <p class="txt_intro" id="txtIdiomas">Por último, alguns idiomas em que possuo níveis de fluência.</p>
+     <p class="txt_intro" id="txtIdiomas">Alguns idiomas em que possuo níveis de fluência.</p>
 
     <button style="background-color: #198f89;" id="bttn_descIdiomas_mostrar" class="btn btn-primary">Ver mais...</button>
  
@@ -175,7 +175,7 @@
 </div>
 </center><br><br><br>
 
-<!-- CAROUSEL DE IMAGENS (PORTFOLIO)-->
+<!-- CAROUSEL DE IMAGENS (PORTFÓLIO)-->
 <div style="display: none;" id="demo" class="carousel slide" data-bs-ride="carousel">
 
   <!-- Indicators/dots -->
