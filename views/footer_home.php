@@ -10,11 +10,6 @@
     .img_footer {
         width: 50px;
         height: 50px;
-        transition: 0.5s;
-    }
-
-    .img_footer:hover {
-        transform: scale(1.1);
     }
 
     .img_LogoFooter {

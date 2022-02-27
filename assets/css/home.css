@@ -137,3 +137,34 @@ transform: scale(1.1);
 #bttn_descIdiomas_esconder:hover {
 transform: scale(1.1);
 }
+
+#botao_anterior {
+    background-color: #595959;
+    display: none;
+}
+#botao_proxima {
+    background-color: #595959;
+    display: none;
+}
+#slide1 {
+    width: 1348px; 
+    height: 657px;
+}
+#slide2 {
+    width: 1348px; 
+    height: 657px;
+}
+#slide3 {
+    width: 1348px; 
+    height: 657px;
+}
+#titulo_portfolio {
+    text-align: center;
+    border-bottom: inset 3px #198f89;
+    width: 15%;
+    padding-bottom: 15px;
+}
+#txt_portfolio {
+    text-align: center;
+    font-size: 18px;
+}

@@ -1,3 +1,12 @@
+function entrou_carrossel() {
+  document.getElementById("botao_anterior").style.display = "block";
+  document.getElementById("botao_proxima").style.display = "block";
+}
+function saiu_carrossel() {
+  document.getElementById("botao_anterior").style.display = "none";
+  document.getElementById("botao_proxima").style.display = "none";
+}
+
 $(document).ready(function(){
     //Sessão de Informações Pessoais
     $("#bttn_descPessoal_mostrar").click(function(){

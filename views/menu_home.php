@@ -29,7 +29,10 @@
     </li>
     <li class="nav-item">
           <a class="nav-link" href="#competencias_redirect">Competências</a>
-      </li>
+    </li>
+    <li class="nav-item">
+          <a class="nav-link" href="#portfolio_redirect">Portfólio</a>
+    </li>
       </ul>
     </div>
   </div>

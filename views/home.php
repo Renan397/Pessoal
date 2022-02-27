@@ -56,7 +56,7 @@
       <button style="background-color: #198f89; display:none;" id="bttn_descPessoal_esconder" class="btn btn-primary">Voltar</button>
 
       <img class="imgs_intro" id="imgPessoal" src="assets/img/img_info_pessoais_intro.png"><br><br>
-      <p class="txt_intro" id="txtPessoal">Aqui há algumas informações básicas sobre mim.</p>
+      <p class="txt_intro" id="txtPessoal">Algumas informações básicas sobre mim.</p>
 
      <button style="background-color: #198f89;" id="bttn_descPessoal_mostrar" class="btn btn-primary">Ver mais...</button>
      </div>
@@ -65,12 +65,12 @@
     <h4 class="titulos" >Hobbies</h4><br>
     <img class="imgs" id="img_hobbies" src="assets/img/img_hobbies.png" style="display:none;">
       <p id="txt_hobbies" style="display: none; padding-top: 10px;">
-      Quando não estou em um momento de estudo, as coisas que eu mais gosto de fazer são: Programar, assistir vídeos no <span style="color: red;"><b>Youtube</b></span>, jogar <span style="color: blue;"><b>jogos</b></span> (isso aqui eu faço muito), assistir à algum jogo de <span style="color: green;"><b>futebol</b></span> ou <span style="color: orange;"><b>basquete</b></span>, meu momento de descanso e de prática de atividades é importante para limpar a mente e me manter disposto fisicamente também.
+      Quando não estou em um momento de estudo, as coisas que eu mais gosto de fazer são: ouvir <span style="color: #198f89;"><b>música</b></span>, assistir vídeos no <span style="color: red;"><b>Youtube</b></span>, jogar <span style="color: blue;"><b>jogos</b></span> (isso aqui eu faço muito) ou assistir a algum jogo de <span style="color: green;"><b>futebol</b></span> ou <span style="color: orange;"><b>basquete</b></span>. <br><br> Meu momento de descanso e de prática de atividades é importante para limpar a mente e me manter disposto fisicamente também.
       </p>
       <button style="background-color: #198f89; display:none;" id="bttn_descHobbies_esconder" class="btn btn-primary">Voltar</button>
 
       <img class="imgs_intro" id="imgHobbies" src="assets/img/img_hobbies_intro.png"><br><br>
-      <p class="txt_intro" id="txtHobbies">Aqui há alguns hobbies, ou seja, coisas que eu gosto de fazer no meu tempo livre.</p>
+      <p class="txt_intro" id="txtHobbies">Alguns hobbies, ou seja, coisas que eu gosto de fazer no meu tempo livre.</p>
 
      <button style="background-color: #198f89;" id="bttn_descHobbies_mostrar" class="btn btn-primary">Ver mais...</button>
     </div>
@@ -133,14 +133,14 @@
 <div class="container" id="competencias">
   <!-- SESSÃO DE COMPETÊNCIAS -->
 <h3><span style="color: #198f89;">✱</span> Sessão 3 - Competências <span style="color: #198f89;">✱</span></h3><br>
-  <div class="row">
+<div class="row">
     <div class="col-6" id="info_competencias">
     <h4 class="titulos" >Competências</h4><br>
    
    <img class="imgs" id="img_competencias" src="assets/img/img_competencias.jpg" style="border-radius: 10%; display: none; padding-bottom: 20px;">
    <p id="txt_competencias" style="display: none; padding-top: 10px;">
     Sou uma pessoa muito curiosa, que tem muita vontade de aprender e coragem para encontrar soluções de possíveis problemas. Tento sempre ouvir os meus colegas de equipe, afinal, saber ouvir todas as ideias é fundamental para que os projetos dêem certo.<br><br>
-    <b>Linguagens (de marcação e programação) e ferramentas conhecidas:</b> HTML, CSS, JavaScript, PHP, jQuery e Bootstrap (4 e 5);<br>
+    <b>Linguagens (de marcação e programação) e ferramentas conhecidas:</b> HTML, CSS, JavaScript, PHP, jQuery e Bootstrap (4 e 5);<br><br>
     <b>Habilidades:</b> Gestão de projetos, suporte em hardware e programação para web;
    </p>
 
@@ -173,39 +173,49 @@
   </div>
   <!-- -->
 </div>
-</center><br><br><br>
+</center>
+
+<!-- SESSÃO DE PORTFOLIO -->
+<div id="portfolio_redirect" style="height: 80px;"></div>
+<center>
+<div class="container" id="portfolio">
+<h3 id="titulo_portfolio">Portfólio</h3><br>
+<p id="txt_portfolio">Por fim, estes são alguns dos trabalhos que já realizei na parte de desenvolvimento de sites para web:</p>
 
 <!-- CAROUSEL DE IMAGENS (PORTFÓLIO)-->
-<div style="display: none;" id="demo" class="carousel slide" data-bs-ride="carousel">
+<div onmouseover="entrou_carrossel()" onmouseout="saiu_carrossel()" id="demo" class="carousel slide" data-bs-ride="carousel" style=" border-top: double 7px #198f89; border-bottom: double 7px #198f89; border-left: double 7px #198f89; border-right: double 7px #198f89; width: 95%;">
 
-  <!-- Indicators/dots -->
+  <!-- Indicadores de Slide -->
   <div class="carousel-indicators">
     <button type="button" data-bs-target="#demo" data-bs-slide-to="0" class="active"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="1"></button>
     <button type="button" data-bs-target="#demo" data-bs-slide-to="2"></button>
   </div>
 
-  <!-- The slideshow/carousel -->
+  <!-- Carousel de Imagens -->
   <div class="carousel-inner">
     <div class="carousel-item active">
-      <img src="assets/img/img_hobbies_intro.png" alt="Los Angeles" class="d-block w-100">
+      <img src="assets/img/slide1.png" id="slide1" class="d-block w-100">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/img_hobbies_intro.png" alt="Chicago" class="d-block w-100">
+      <img src="assets/img/slide2.png" id="slide2" class="d-block w-100">
     </div>
     <div class="carousel-item">
-      <img src="assets/img/img_hobbies_intro.png" alt="New York" class="d-block w-100">
+      <img src="assets/img/slide3.png" id="slide3" class="d-block w-100">
     </div>
   </div>
 
-  <!-- Left and right controls/icons -->
-  <button class="carousel-control-prev" type="button" data-bs-target="#demo" data-bs-slide="prev">
+  <!-- Botões de imagem anterior e próxima -->
+  <button class="carousel-control-prev" id="botao_anterior" type="button" data-bs-target="#demo" data-bs-slide="prev">
     <span class="carousel-control-prev-icon"></span>
   </button>
-  <button class="carousel-control-next" type="button" data-bs-target="#demo" data-bs-slide="next">
+  <button class="carousel-control-next" id="botao_proxima" type="button" data-bs-target="#demo" data-bs-slide="next">
     <span class="carousel-control-next-icon"></span>
   </button>
 </div>
+<!-- -->
+</div><br><br><br>
+</center>
 
 <?php
   include_once "footer_home.php";
@@ -233,6 +243,8 @@ if (isMobile()) {
   document.getElementById("info_competencias").classList.add("col-12");
   document.getElementById("info_idiomas").classList.remove("col-6");
   document.getElementById("info_idiomas").classList.add("col-12");
+  
+  document.getElementById("titulo_portfolio").style.width = "25%";
 }
 </script>
 
