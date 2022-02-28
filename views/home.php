@@ -88,12 +88,12 @@
     <div class="col-6" id="info_academica">
     <h4 class="titulos" >Formação Acadêmica</h4><br>
     <p class="txt_academica" style="display: none; padding-top: 10px;">
-        <b>Ensino Fundamental (1º ao 9º ano):</b> E.E. Agostinho Cano.<br>
+        <b>Ensino Fundamental (1° ao 9° ano):</b> E.E. Agostinho Cano.<br>
     </p>
     <img class="imgs" id="img_academica1" src="assets/img/img_academica1.jpg" style="border-radius: 50%; display:none; padding-bottom: 20px;">
     
     <p class="txt_academica" style="display: none; padding-top: 10px;">
-        <b>Ensino Médio - Técnico em Informática para Internet (1º ao 4º ano):</b> Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP Guarulhos).<br>
+        <b>Ensino Médio - Técnico em Informática para Internet (1° ao 4° ano):</b> Instituto Federal de Educação, Ciência e Tecnologia de São Paulo (IFSP Guarulhos).<br>
     </p>
     <img class="imgs" id="img_academica2" src="assets/img/img_academica2.jpg" style="border-radius: 50%; display:none;">
     
