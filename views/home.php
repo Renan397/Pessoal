@@ -140,7 +140,7 @@
    <img class="imgs" id="img_competencias" src="assets/img/img_competencias.jpg" style="border-radius: 10%; display: none; padding-bottom: 20px;">
    <p id="txt_competencias" style="display: none; padding-top: 10px;">
     Sou uma pessoa muito curiosa, que tem muita vontade de aprender e coragem para encontrar soluções de possíveis problemas. Tento sempre ouvir os meus colegas de equipe, afinal, saber ouvir todas as ideias é fundamental para que os projetos dêem certo.<br><br>
-    <b>Linguagens (de marcação e programação) e ferramentas conhecidas:</b> HTML, CSS, JavaScript, PHP, jQuery e Bootstrap (4 e 5);<br><br>
+    <b>Linguagens (de marcação e programação) e ferramentas conhecidas:</b> HTML, CSS, JavaScript, PHP, Python, jQuery e Bootstrap (4 e 5);<br><br>
     <b>Habilidades:</b> Gestão de projetos, suporte em hardware e programação para web;
    </p>
 
