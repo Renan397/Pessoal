@@ -9,14 +9,14 @@
     color: white;
   }
   .nav-link:hover {
-    color: #1fb2ab;
-    border-bottom: inset 1px #198f89;  
+    color: black;
+    border-bottom: solid 1px black;  
   }
   .nav-link:focus {
-    color: #1fb2ab;
+    color: black;
   };
 </style>
-<nav id="" class="navbar navbar-expand-sm bg-dark navbar-dar" style="position: fixed; width: 100%; z-index: 3;">
+<nav class="navbar navbar-expand-sm navbar-dar" style=" background-color: #198f89; position: fixed; width: 100%; z-index: 3;">
   <div class="container-fluid">
     <a class="navbar-brand" href="#"><img src="<?=$img_files[1]?>" style="height: 50px; width: 50px;"></a>
     <button class="navbar-toggler" style="background-color: #198f89;" type="button" data-bs-toggle="collapse" data-bs-target="#collapsibleNavbar">
