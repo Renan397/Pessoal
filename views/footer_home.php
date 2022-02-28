@@ -18,13 +18,13 @@
     }
 
     #myFooter {
-        background-color: #212121;
+        background-color: #198f89;
         color: white;
         padding-top: 30px;
     }
 
     #myFooter .footer-copyright {
-        background-color: #333333;
+        background-color: #126864;
         padding-top: 3px;
         padding-bottom: 3px;
         text-align: center;
