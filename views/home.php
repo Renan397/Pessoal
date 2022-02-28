@@ -181,7 +181,7 @@
 <div class="container" id="portfolio">
 <h3 id="titulo_portfolio">Portfólio</h3><br>
 <p id="txt_portfolio">Por fim, estes são alguns dos trabalhos que já realizei na parte de desenvolvimento de sites para web:</p>
-
+</div>
 <!-- CAROUSEL DE IMAGENS (PORTFÓLIO)-->
 <div onmouseover="entrou_carrossel()" onmouseout="saiu_carrossel()" id="demo" class="carousel slide" data-bs-ride="carousel" style=" border-top: double 7px #198f89; border-bottom: double 7px #198f89; border-left: double 7px #198f89; border-right: double 7px #198f89; width: 95%;">
 
@@ -212,9 +212,9 @@
   <button class="carousel-control-next" id="botao_proxima" type="button" data-bs-target="#demo" data-bs-slide="next">
     <span class="carousel-control-next-icon"></span>
   </button>
-</div>
 <!-- -->
-</div><br><br><br>
+</div>
+<br><br><br>
 </center>
 
 <?php
