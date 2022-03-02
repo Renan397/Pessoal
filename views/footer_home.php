@@ -120,7 +120,7 @@
         #myFooter {
             text-align: center;
         }
-    }
+    };
 </style>
 <footer id="myFooter">
     <div class="container">
