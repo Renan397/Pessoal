@@ -9,11 +9,11 @@
     color: white;
   }
   .nav-link:hover {
-    color: black;
-    border-bottom: solid 1px black;  
+    color: #dbdbdb;
+    border-bottom: solid 1px #dbdbdb;  
   }
   .nav-link:focus {
-    color: black;
+    color: #dbdbdb;
   };
 </style>
 <nav class="navbar navbar-expand-sm navbar-dar" style=" background-color: #198f89; position: fixed; width: 100%; z-index: 3;">
