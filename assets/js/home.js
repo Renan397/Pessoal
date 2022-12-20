@@ -54,6 +54,7 @@ $(document).ready(function(){
         $("#txtAcademica").hide();
         $("#img_academica1").fadeToggle();
         $("#img_academica2").fadeToggle();
+        $("#img_academica3").fadeToggle();
         $(".txt_academica").fadeToggle();
       });
       $("#bttn_descAcademica_esconder").click(function(){
@@ -63,6 +64,7 @@ $(document).ready(function(){
         $("#txtAcademica").fadeToggle();
         $("#img_academica1").hide();
         $("#img_academica2").hide();
+        $("#img_academica3").hide();
         $(".txt_academica").hide();
       });
       //
