@@ -218,6 +218,7 @@ transform: scale(1.1);
 transform: scale(1.1);
 }
 
+/* PORTFÓLIO - Carrossel de imagens */
 #botao_anterior {
     background-color: #595959;
     display: none;
@@ -254,7 +255,31 @@ transform: scale(1.1);
 #txt_portfolio {
     text-align: center;
     font-size: 18px;
-};
+}
+/* */
+
+/* SESSÃO 4 - Contato */
+#contato {
+    padding-bottom: 80px;
+}
+#titulo_contato {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+    border-bottom: inset 3px #198f89;
+    width: 20%;
+    padding-bottom: 15px;
+}
+#txt_contato {
+    text-align: center;
+    font-size: 18px;
+}
+.list-inline-item {
+    padding-bottom: 5px;
+    font-size: 18px;
+}
+/* */
 
 .img_footer {
     width: 50px;
