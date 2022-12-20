@@ -403,6 +403,9 @@ transform: scale(1.1);
     #titulo_portfolio {
         width: 50%;
     }
+    #titulo_contato {
+        width: 50%;
+    }
     #slide1 {
         width: 767px; 
         height: 250px;
@@ -428,6 +431,22 @@ transform: scale(1.1);
 /* Ajustes para large-devices */
 @media screen and (min-width: 1440px) {
     #demo {
+        width: 1348px; 
+        height: 657px;
+    }
+    #slide1 {
+        width: 1348px; 
+        height: 657px;
+    }
+    #slide2 {
+        width: 1348px; 
+        height: 657px;
+    }
+    #slide3 {
+        width: 1348px; 
+        height: 657px;
+    }
+    #slide4 {
         width: 1348px; 
         height: 657px;
     }
