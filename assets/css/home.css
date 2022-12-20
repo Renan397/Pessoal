@@ -375,6 +375,9 @@ transform: scale(1.1);
     #info_idiomas {
         padding-top: 50px;
     }
+    #titulo_portfolio {
+        width: 50%;
+    }
     #slide1 {
         width: 767px; 
         height: 250px;
