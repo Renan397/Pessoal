@@ -8,6 +8,9 @@ function saiu_carrossel() {
 }
 
 $(document).ready(function(){
+    $('#img_welcome').css('display', 'none');
+    $('#img_welcome').fadeToggle(3000);
+
     //Sessão de Informações Pessoais
     $("#bttn_descPessoal_mostrar").click(function(){
         $("#bttn_descPessoal_mostrar").hide();

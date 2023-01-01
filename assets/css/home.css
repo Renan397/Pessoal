@@ -22,8 +22,15 @@ body {
 #entrada {
     padding-top: 100px;
 }
+#img_welcome {
+    padding-top: 80px; 
+    display: block; 
+    margin-right: auto; 
+    margin-left: auto; 
+    width: 250px; 
+    height: 250px;
+}
 #titulo_entrada {
-    padding-top: 100px;
     text-align: center;
     font-weight: bold;
 }
@@ -85,6 +92,27 @@ body {
     margin-left: auto;
     text-align: center;
 }
+#txt_perfil {
+    display: none; 
+    text-align: justify;
+    padding-top: 10px;
+}
+#txt_perfil_nome {
+    font-size: 16px;
+}
+#txt_perfil_data {
+    font-size: 16px;
+}
+#txt_perfil_local {
+    font-size: 16px;
+}
+#txt_perfil_nac {
+    font-size: 16px;
+}
+#txt_perfil_gen {
+    font-size: 16px;
+}
+
 #txt_hobbies {
     text-align: justify;
 }

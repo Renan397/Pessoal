@@ -53,6 +53,7 @@
 <body>
 
 <div class="container" id="entrada">
+<img id="img_welcome" src="assets/img/welcome.png">
 <h3 id="titulo_entrada">Bem-Vindo!</h3>
 <p class="txt_entrada">Você está na minha página pessoal, espero que goste!</p>
 <p class="txt_entrada">Abaixo estão algumas das minhas informações.</p>
@@ -66,12 +67,17 @@
     <div class="col-sm-6" id="info_pessoais">
     <h4 class="titulos" >Informações Pessoais</h4><br>
     <img class="imgs" id="img_perfil" src="assets/img/img_perfil.png" style="box-shadow: 0 0 1em #57a8f3; border-radius: 5%; display:none; border: 3px inset #198f89;">
-      <p id="txt_perfil" style="display: none; padding-top: 10px;"><b>Nome:</b> Renan Siqueira dos Santos;<br>
-        <b>Data de nascimento:</b> 18/06/2003;<br>  
-        <b>Local de nascimento:</b> Guarulhos - SP;<br>
-        <b>Nacionalidade:</b> Brasileira;<br>
-        <b>Gênero Sexual:</b> Masculino.<br>
-      </p>
+    
+    <div class="d-flex">
+      <ul id="txt_perfil" class="list-inline mx-auto justify-content-center">
+        <li id="txt_perfil_nome" class="list-inline-item"><b>Nome:</b> Renan Siqueira dos Santos;</li><br>
+        <li id="txt_perfil_data" class="list-inline-item"><b>Data de nascimento:</b> 18/06/2003;</li><br>
+        <li id="txt_perfil_local" class="list-inline-item"><b>Local de nascimento:</b> Guarulhos - SP;</li><br>
+        <li id="txt_perfil_nac" class="list-inline-item"><b>Nacionalidade:</b> Brasileira;</li><br>
+        <li id="txt_perfil_gen" class="list-inline-item"><b>Gênero Sexual:</b> Masculino.</li><br>   
+      </ul>
+    </div>  
+    
       <button style="background-color: #198f89; display:none;" id="bttn_descPessoal_esconder" class="btn btn-primary">Voltar</button>
 
       <img class="imgs_intro" id="imgPessoal" src="assets/img/img_info_pessoais_intro.png"><br><br>
