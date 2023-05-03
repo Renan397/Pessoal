@@ -106,6 +106,9 @@ body {
 #txt_perfil_local {
     font-size: 16px;
 }
+#txt_perfil_local_2 {
+    font-size: 16px;
+}
 #txt_perfil_nac {
     font-size: 16px;
 }
@@ -135,7 +138,7 @@ body {
     text-align: center;
 }
 #img_academica3 {
-    width: 350px;
+    width: 400px;
     min-height: 160px;
 }
 #info_profissional {
