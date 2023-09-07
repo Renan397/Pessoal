@@ -437,6 +437,10 @@ transform: scale(1.1);
     #titulo_contato {
         width: 50%;
     }
+    #img_academica3 {
+        width: 350px;
+        min-height: 160px;
+    }
     #slide1 {
         width: 767px; 
         height: 250px;
