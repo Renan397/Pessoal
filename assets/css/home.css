@@ -147,7 +147,17 @@ body {
     margin-left: auto;
     text-align: center;
 }
+#img_profissional2 {
+    width: 200px;
+    min-height: 60px;
+}
 #txt_profissional {
+    text-align: justify;
+}
+#txt_profissional2 {
+    text-align: justify;
+}
+#txt_profissional3 {
     text-align: justify;
 }
 /* */

@@ -79,7 +79,10 @@ $(document).ready(function(){
         $("#imgProfissional").hide();
         $("#txtProfissional").hide();
         $("#img_profissional").fadeToggle();
+        $("#img_profissional2").fadeToggle();
         $("#txt_profissional").fadeToggle();
+        $("#txt_profissional2").fadeToggle();
+        $("#txt_profissional3").fadeToggle();
       });
       $("#bttn_descProfissional_esconder").click(function(){
         $("#bttn_descProfissional_esconder").hide();
@@ -87,7 +90,10 @@ $(document).ready(function(){
         $("#imgProfissional").fadeToggle();
         $("#txtProfissional").fadeToggle();
         $("#img_profissional").hide();
+        $("#img_profissional2").hide();
         $("#txt_profissional").hide();
+        $("#txt_profissional2").hide();
+        $("#txt_profissional3").hide();
       });
       //
 
