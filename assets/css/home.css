@@ -97,6 +97,10 @@ body {
     text-align: justify;
     padding-top: 10px;
 }
+#img_perfil {
+    width: 180px;
+    height: 180px;
+}
 #txt_perfil_nome {
     font-size: 16px;
 }
