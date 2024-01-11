@@ -479,6 +479,10 @@ transform: scale(1.1);
         width: 350px;
         min-height: 160px;
     }
+    #img_portfolio_jornalismo {
+        width: 350px;
+        min-height: 160px;
+    }
     #slide1 {
         width: 767px; 
         height: 250px;
