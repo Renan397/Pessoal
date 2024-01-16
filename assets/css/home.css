@@ -319,11 +319,11 @@ transform: scale(1.1);
     border-radius: 30px;
     padding: 15px;
 }
-#insta_redirect {
-    color:  #E1306C;
+#drive_redirect {
+    color:  #996a11;
 }
-#insta_redirect:hover {
-    color:  #a32e71;
+#drive_redirect:hover {
+    color:  #cf8701;
 }
 /* */
 
