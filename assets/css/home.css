@@ -155,6 +155,11 @@ body {
     width: 200px;
     min-height: 60px;
 }
+#img_profissional3 {
+    width: 200px;
+    min-height: 60px;
+    border-radius: 100px;
+}
 #txt_profissional {
     text-align: justify;
 }
@@ -162,6 +167,9 @@ body {
     text-align: justify;
 }
 #txt_profissional3 {
+    text-align: justify;
+}
+#txt_profissional4 {
     text-align: justify;
 }
 /* */
