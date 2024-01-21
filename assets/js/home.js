@@ -72,6 +72,29 @@ $(document).ready(function(){
       });
       //
 
+           //Sessão de Competências
+      $("#bttn_descCompetencias_mostrar").click(function(){
+        $("#bttn_descCompetencias_mostrar").hide();
+        $("#bttn_descCompetencias_esconder").fadeToggle();
+        $("#imgCompetencias").hide();
+        $("#txtCompetencias").hide();
+        $("#img_competencias").fadeToggle();
+        $("#txt_competencias").fadeToggle();
+        $("#titulo_idiomas").fadeToggle();
+        $("#txt_idiomas").fadeToggle();
+      });
+      $("#bttn_descCompetencias_esconder").click(function(){
+        $("#bttn_descCompetencias_esconder").hide();
+        $("#bttn_descCompetencias_mostrar").fadeToggle();
+        $("#imgCompetencias").fadeToggle();
+        $("#txtCompetencias").fadeToggle();
+        $("#img_competencias").hide();
+        $("#txt_competencias").hide();
+        $("#titulo_idiomas").hide();
+        $("#txt_idiomas").hide();
+      });
+      //
+
       //Sessão de Formação Profissional
       $("#bttn_descProfissional_mostrar").click(function(){
         $("#bttn_descProfissional_mostrar").hide();
@@ -81,10 +104,12 @@ $(document).ready(function(){
         $("#img_profissional").fadeToggle();
         $("#img_profissional2").fadeToggle();
         $("#img_profissional3").fadeToggle();
+        $("#img_profissional4").fadeToggle();
         $("#txt_profissional").fadeToggle();
         $("#txt_profissional2").fadeToggle();
         $("#txt_profissional3").fadeToggle();
         $("#txt_profissional4").fadeToggle();
+        $("#txt_profissional5").fadeToggle();
       });
       $("#bttn_descProfissional_esconder").click(function(){
         $("#bttn_descProfissional_esconder").hide();
@@ -94,48 +119,12 @@ $(document).ready(function(){
         $("#img_profissional").hide();
         $("#img_profissional2").hide();
         $("#img_profissional3").hide();
+        $("#img_profissional4").hide();
         $("#txt_profissional").hide();
         $("#txt_profissional2").hide();
         $("#txt_profissional3").hide();
         $("#txt_profissional4").hide();
+        $("#txt_profissional5").hide();
       });
-      //
-
-      //Sessão de Competências
-      $("#bttn_descCompetencias_mostrar").click(function(){
-        $("#bttn_descCompetencias_mostrar").hide();
-        $("#bttn_descCompetencias_esconder").fadeToggle();
-        $("#imgCompetencias").hide();
-        $("#txtCompetencias").hide();
-        $("#img_competencias").fadeToggle();
-        $("#txt_competencias").fadeToggle();
-      });
-      $("#bttn_descCompetencias_esconder").click(function(){
-        $("#bttn_descCompetencias_esconder").hide();
-        $("#bttn_descCompetencias_mostrar").fadeToggle();
-        $("#imgCompetencias").fadeToggle();
-        $("#txtCompetencias").fadeToggle();
-        $("#img_competencias").hide();
-        $("#txt_competencias").hide();
-      });
-      //
-
-      //Sessão de Idiomas
-      $("#bttn_descIdiomas_mostrar").click(function(){
-        $("#bttn_descIdiomas_mostrar").hide();
-        $("#bttn_descIdiomas_esconder").fadeToggle();
-        $("#imgIdiomas").hide();
-        $("#txtIdiomas").hide();
-        $("#img_idiomas").fadeToggle();
-        $("#txt_idiomas").fadeToggle();
-      });
-      $("#bttn_descIdiomas_esconder").click(function(){
-        $("#bttn_descIdiomas_esconder").hide();
-        $("#bttn_descIdiomas_mostrar").fadeToggle();
-        $("#imgIdiomas").fadeToggle();
-        $("#txtIdiomas").fadeToggle();
-        $("#img_idiomas").hide();
-        $("#txt_idiomas").hide();
-      });
-      //
+      // 
   });

@@ -125,7 +125,7 @@ body {
 }
 /* */
 
-/* SESSÃO 2 - Formação */
+/* SESSÃO 2 - Formação e Competências */
 #formacao {
     border-bottom: outset 5px #198f89; 
     border-top: outset 5px #198f89;
@@ -145,6 +145,24 @@ body {
     width: 400px;
     min-height: 160px;
 }
+#info_competencias {
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    text-align: center;
+}
+/* */
+
+/* SESSÃO 3 - Experiências */
+#experiencias {
+    border-bottom: outset 5px #198f89; 
+    border-top: outset 5px #198f89;
+    border-left: #198f89 5px dashed; 
+    border-right: #198f89 5px dashed; 
+    padding-bottom: 50px; 
+    padding-top: 50px; 
+    border-radius: 10%;
+}
 #info_profissional {
     display: block;
     margin-right: auto;
@@ -156,6 +174,10 @@ body {
     min-height: 60px;
 }
 #img_profissional3 {
+    width: 200px;
+    min-height: 60px;
+}
+#img_profissional4 {
     width: 200px;
     min-height: 60px;
     border-radius: 100px;
@@ -172,29 +194,8 @@ body {
 #txt_profissional4 {
     text-align: justify;
 }
-/* */
-
-/* SESSÃO 3 - Competências */
-#competencias {
-    border-bottom: outset 5px #198f89; 
-    border-top: outset 5px #198f89;
-    border-left: #198f89 5px dashed; 
-    border-right: #198f89 5px dashed; 
-    padding-bottom: 50px; 
-    padding-top: 50px; 
-    border-radius: 10%;
-}
-#info_competencias {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
-}
-#info_idiomas {
-    display: block;
-    margin-right: auto;
-    margin-left: auto;
-    text-align: center;
+#txt_profissional5 {
+    text-align: justify;
 }
 /* */
 
@@ -234,18 +235,6 @@ transform: scale(1.1);
 #bttn_descAcademica_esconder:hover {
 transform: scale(1.1);
 }
-#bttn_descProfissional_mostrar {
-    transition: 0.5s;
-    }       
-#bttn_descProfissional_mostrar:hover {
-transform: scale(1.1);
-}
-#bttn_descProfissional_esconder {
-    transition: 0.5s;
-    }           
-#bttn_descProfissional_esconder:hover {
-transform: scale(1.1);
-}
 #bttn_descCompetencias_mostrar {
     transition: 0.5s;
     }       
@@ -257,17 +246,17 @@ transform: scale(1.1);
     }           
 #bttn_descCompetencias_esconder:hover {
 transform: scale(1.1);
-}
-#bttn_descIdiomas_mostrar {
+} 
+#bttn_descProfissional_mostrar {
     transition: 0.5s;
     }       
-#bttn_descIdiomas_mostrar:hover {
+#bttn_descProfissional_mostrar:hover {
 transform: scale(1.1);
 }
-#bttn_descIdiomas_esconder {
+#bttn_descProfissional_esconder {
     transition: 0.5s;
     }           
-#bttn_descIdiomas_esconder:hover {
+#bttn_descProfissional_esconder:hover {
 transform: scale(1.1);
 }
 
@@ -472,9 +461,6 @@ transform: scale(1.1);
         padding-top: 50px;
     }
     #info_profissional {
-        padding-top: 50px;
-    }
-    #info_idiomas {
         padding-top: 50px;
     }
     #titulo_portfolio {

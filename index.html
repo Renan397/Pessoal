@@ -15,7 +15,7 @@
     <!-- Arquivos locais -->
     <link rel="stylesheet" href="assets/css/home.css">
     <script src="assets/js/home.js"></script>
-    <title>Renan dos Santos - Bem-vindo(a)!</title>
+    <title>Blog - Renan dos Santos</title>
 </head>
 <header>
     <nav class="navbar navbar-expand-sm navbar-dar" style=" background-color: #198f89; position: fixed; width: 100%; z-index: 3;">
@@ -36,7 +36,7 @@
                 <a class="nav-link" href="#formacao_redirect">Formação</a>
           </li>
           <li class="nav-item">
-                <a class="nav-link" href="#competencias_redirect">Competências</a>
+                <a class="nav-link" href="#experiencias_redirect">Experiências</a>
           </li>
           <li class="nav-item">
                 <a class="nav-link" href="#portfolio_redirect">Portfólio</a>
@@ -100,7 +100,7 @@
   <!-- -->
 </div><br><br>
 
-<!-- SESSÃO DE FORMAÇÃO ACADÊMICA E PROFISSIONAL -->
+<!-- SESSÃO DE FORMAÇÃO ACADÊMICA E COMPETÊNCIAS -->
 <div id="formacao_redirect" style="height: 5px;"></div><br>
 <div class="container" id="formacao">
 <h3 class="titulos_sessoes"><span style="color: #198f89;">✱</span> Sessão 2 - Formação <span style="color: #198f89;">✱</span></h3><br>
@@ -130,7 +130,47 @@
 
      <button style="background-color: #198f89;" id="bttn_descAcademica_mostrar" class="btn btn-primary">Ver mais...</button>
     </div>
-    <div class="col-sm-6" id="info_profissional">
+
+    <div class="col-sm-6" id="info_competencias">
+      <h4 class="titulos" >Competências</h4><br>
+     
+     <img class="imgs" id="img_competencias" src="assets/img/img_competencias.jpg" style="border-radius: 10%; display: none; padding-bottom: 20px;">
+     <p id="txt_competencias" style="display: none; padding-top: 10px; text-align: justify;">
+      <!-- 
+        Adicionar quando for formatado para um currículo:
+        Sou uma pessoa muito curiosa, que tem muita vontade de aprender e coragem para encontrar soluções de possíveis problemas. Tento sempre ouvir os meus colegas de equipe, afinal, saber ouvir todas as ideias é fundamental para que os projetos dêem certo.<br><br>
+      -->
+      <b>Linguagens (de marcação e programação) e ferramentas conhecidas:</b> HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, AJAX, Bootstrap (4 e 5), Microsoft Office (Word, Excel, PowerPoint);<br><br>
+      <b>Habilidades (Tecnologia da Informação):</b> Gestão de projetos, suporte em hardware e redes, programação para web, e criação de identidade visual;<br>
+      <b>Habilidades (Jornalismo):</b> Redação de notícias, roteiros (para podcast e entrevista) e criação de textos em geral em demanda.<br><br>
+    
+      <h4 id="titulo_idiomas" style="display: none; text-align: justify;">✦ Idiomas</h6>
+      <img class="imgs" id="img_idiomas" src="assets/img/img_idiomas.png" style="border-radius: 10%; display: none; padding-bottom: 10px;">
+      <ul id="txt_idiomas" style="list-style: disc; text-align: justify; display: none;">
+      <li><span style="color: #4ca9c8;"><b>Língua Inglesa:</b></span> Nível intermediário;</li>
+      <li><span style="color: red;"><b>Língua Espanhola:</b></span> Nível básico;</li>
+      </ul>
+  
+    </p>
+  
+     <button style="background-color: #198f89; display:none;" id="bttn_descCompetencias_esconder" class="btn btn-primary">Voltar</button>
+  
+       <img class="imgs_intro" id="imgCompetencias" src="assets/img/img_competencias_intro.png"><br><br>
+       <p class="txt_intro" id="txtCompetencias">Algumas das minhas competências, principalmente relacionadas à área da tecnologia e redação.</p>
+  
+      <button style="background-color: #198f89;" id="bttn_descCompetencias_mostrar" class="btn btn-primary">Ver mais...</button>
+   
+      </div>
+  </div>
+  <!-- -->
+</div><br><br>
+
+<!-- SESSÃO DE EXPERIÊNCIA -->
+<div id="experiencias_redirect" style="height: 5px;"></div><br>
+<div class="container" id="experiencias">
+  <h3 class="titulos_sessoes"><span style="color: #198f89;">✱</span> Sessão 3 - Experiências <span style="color: #198f89;">✱</span></h3><br>
+  <div class="row">
+  <div class="col-sm-12" id="info_profissional">
     <h4 class="titulos" >Experiência Acadêmica/Profissional</h4><br>
    
     <img class="imgs" id="img_profissional" src="assets/img/img_profissional.png" style="border-radius: 50%; display: none; padding-bottom: 20px;">
@@ -140,9 +180,12 @@
     <p id="txt_profissional2" style="display: none; padding-top: 10px;">No meu primeiro período de graduação em Jornalismo, pude ter a oportunidade de entrar para o projeto <span style="color: rgb(224, 2, 2);"><b>Arquibancada UFU</b></span>, que é um projeto de extensão voltado para cobertura jornalística de esportes universitários. Faço parte da equipe de redação e rádio, produzindo textos e episódios do podcast, chamado de ArqCast. <br> Segue o link para o site do projeto: <a href="https://arquibancadaufu.wixsite.com/meusite" style="text-decoration: none;"><span style="color: rgb(224, 2, 2);">https://arquibancadaufu.wixsite.com/meusite</span></a></p>
 
     <img id="img_profissional3" src="assets/img/img_profissional 3.png" style="display: none; padding-bottom: 20px;">    
-    <p id="txt_profissional3" style="display: none; padding-top: 10px;">No meu segundo período de graduação em Jornalismo, entrei para o projeto <span style="color: #0101b1"><b>UFocas</b></span>, que é outro projeto de extensão, fruto de uma parceria institucional entre a coordenação do curso de Jornalismo e os órgãos de comunicação oficial da UFU — a Diretoria de Comunicação Social (Dirco) e a Fundação Rádio e Televisão Educativa de Uberlândia (RTU) —, e que garante oportunidades de atuação para estudantes nas diversas atividades ali executadas. Atualmente, faço parte da equipe de Divulgação Científica, auxiliando na produção de materiais em formato de texto ou áudio, como o podcast Ciência ao Pé do Ouvido. <br></p>
+    <p id="txt_profissional3" style="display: none; padding-top: 10px;">Junto a outros colegas, criei o projeto <span style="color: #00869e"><b>Jornal</span>idade</b>, em que realizamos oficinas sobre Jornalismo para jovens da Escola Estadual Professor José Ignácio de Sousa, localizada em Uberlândia-MG. Além de participar do projeto como monitor, desenvolvi o website de apresentação do projeto. <br> Segue o link para o site: <a href="https://jornalidade.github.io/projetojornalidade/" target="_blank" style="text-decoration: none;"><span style="color: #00869e">https://jornalidade.github.io/projetojornalidade/</span></a></p>
 
-    <p id="txt_profissional4" style="display: none; padding-top: 10px;">Por fim, estou sempre buscando novas oportunidades tanto dentro da universidade, quanto externamente, no mercado profissional de TI ou de Jornalismo, já que mantenho os estudos voltados para as duas áreas regularmente.</p>
+    <img id="img_profissional4" src="assets/img/img_profissional 4.png" style="display: none; padding-bottom: 20px;">    
+    <p id="txt_profissional4" style="display: none; padding-top: 10px;">No meu segundo período de graduação em Jornalismo, entrei para o projeto <span style="color: #0101b1"><b>UFocas</b></span>, que é outro projeto de extensão, fruto de uma parceria institucional entre a coordenação do curso de Jornalismo e os órgãos de comunicação oficial da UFU — a Diretoria de Comunicação Social (Dirco) e a Fundação Rádio e Televisão Educativa de Uberlândia (RTU) —, e que garante oportunidades de atuação para estudantes nas diversas atividades ali executadas. Atualmente, faço parte da equipe de Divulgação Científica, auxiliando na produção de materiais em formato de texto ou áudio, como o podcast Ciência ao Pé do Ouvido. <br></p>
+
+    <p id="txt_profissional5" style="display: none; padding-top: 10px;">Por fim, estou sempre buscando novas oportunidades tanto dentro da universidade, quanto externamente, no mercado profissional de TI ou de Jornalismo, já que mantenho os estudos voltados para as duas áreas regularmente.</p>
 
     <!--
       Adicionar quando for formatado para um currículo:
@@ -155,56 +198,6 @@
       <p class="txt_intro" id="txtProfissional">Algumas informações sobre minha experiência acadêmica e profissional.</p>
 
      <button style="background-color: #198f89;" id="bttn_descProfissional_mostrar" class="btn btn-primary">Ver mais...</button>
-    </div>
-  </div>
-  <!-- -->
-</div><br><br>
-
-<!-- SESSÃO DE COMPETÊNCIAS -->
-<div id="competencias_redirect" style="height: 5px;"></div><br>
-<div class="container" id="competencias">
-
-<h3 class="titulos_sessoes"><span style="color: #198f89;">✱</span> Sessão 3 - Competências <span style="color: #198f89;">✱</span></h3><br>
-<div class="row">
-    <div class="col-sm-6" id="info_competencias">
-    <h4 class="titulos" >Competências</h4><br>
-   
-   <img class="imgs" id="img_competencias" src="assets/img/img_competencias.jpg" style="border-radius: 10%; display: none; padding-bottom: 20px;">
-   <p id="txt_competencias" style="display: none; padding-top: 10px; text-align: justify;">
-    <!-- 
-      Adicionar quando for formatado para um currículo:
-      Sou uma pessoa muito curiosa, que tem muita vontade de aprender e coragem para encontrar soluções de possíveis problemas. Tento sempre ouvir os meus colegas de equipe, afinal, saber ouvir todas as ideias é fundamental para que os projetos dêem certo.<br><br>
-    -->
-    <b>Linguagens (de marcação e programação) e ferramentas conhecidas:</b> HTML, CSS, JavaScript, PHP, SQL, Python, jQuery, AJAX, Bootstrap (4 e 5), Microsoft Office (Word, Excel, PowerPoint);<br><br>
-    <b>Habilidades (Tecnologia da Informação):</b> Gestão de projetos, suporte em hardware e redes, programação para web, e criação de identidade visual;<br>
-    <b>Habilidades (Jornalismo):</b> Redação de notícias, roteiros (para podcast e entrevista) e criação de textos em geral em demanda.
-  </p>
-
-   <button style="background-color: #198f89; display:none;" id="bttn_descCompetencias_esconder" class="btn btn-primary">Voltar</button>
-
-     <img class="imgs_intro" id="imgCompetencias" src="assets/img/img_competencias_intro.png"><br><br>
-     <p class="txt_intro" id="txtCompetencias">Algumas das minhas competências, principalmente relacionadas à área da tecnologia e redação.</p>
-
-    <button style="background-color: #198f89;" id="bttn_descCompetencias_mostrar" class="btn btn-primary">Ver mais...</button>
- 
-    </div>
-
-    <div class="col-sm-6" id="info_idiomas">
-    <h4 class="titulos" >Idiomas</h4><br>
-   
-   <img class="imgs" id="img_idiomas" src="assets/img/img_idiomas.png" style="border-radius: 10%; display: none; padding-bottom: 10px;">
-    <ul id="txt_idiomas" style="list-style: none; display: none;">
-    <li><span style="color: #4ca9c8;"><b>Língua Inglesa:</b></span> Nível intermediário;</li>
-    <li><span style="color: red;"><b>Língua Espanhola:</b></span> Nível básico;</li>
-    </ul>
-
-   <button style="background-color: #198f89; display:none;" id="bttn_descIdiomas_esconder" class="btn btn-primary">Voltar</button>
-
-     <img class="imgs_intro" id="imgIdiomas" src="assets/img/img_idiomas_intro.png"><br><br>
-     <p class="txt_intro" id="txtIdiomas">Alguns idiomas nos quais possuo níveis de fluência.</p>
-
-    <button style="background-color: #198f89;" id="bttn_descIdiomas_mostrar" class="btn btn-primary">Ver mais...</button>
- 
     </div>
   </div>
   <!-- -->
