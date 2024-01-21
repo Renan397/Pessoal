@@ -97,6 +97,7 @@ $(document).ready(function(){
         $("#txt_profissional").hide();
         $("#txt_profissional2").hide();
         $("#txt_profissional3").hide();
+        $("#txt_profissional4").hide();
       });
       //
 
