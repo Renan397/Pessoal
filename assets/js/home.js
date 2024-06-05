@@ -105,11 +105,13 @@ $(document).ready(function(){
         $("#img_profissional2").fadeToggle();
         $("#img_profissional3").fadeToggle();
         $("#img_profissional4").fadeToggle();
+        $("#img_profissional5").fadeToggle();
         $("#txt_profissional").fadeToggle();
         $("#txt_profissional2").fadeToggle();
         $("#txt_profissional3").fadeToggle();
         $("#txt_profissional4").fadeToggle();
         $("#txt_profissional5").fadeToggle();
+        $("#txt_profissional6").fadeToggle();
       });
       $("#bttn_descProfissional_esconder").click(function(){
         $("#bttn_descProfissional_esconder").hide();
@@ -120,11 +122,13 @@ $(document).ready(function(){
         $("#img_profissional2").hide();
         $("#img_profissional3").hide();
         $("#img_profissional4").hide();
+        $("#img_profissional5").hide();        
         $("#txt_profissional").hide();
         $("#txt_profissional2").hide();
         $("#txt_profissional3").hide();
         $("#txt_profissional4").hide();
         $("#txt_profissional5").hide();
+        $("#txt_profissional6").hide();
       });
       // 
   });
